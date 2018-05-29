@@ -1,43 +1,97 @@
-<!DOCTYPE html>
-
-<html>
+<html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Responsive viewport meta tag to ensure proper rendering -->
+		<meta name="keywords" content="Hunter, Centre, for, Sex, and, Gender, Diversity, LGBT, LGBTQ, LGBTQI, Lesbian, Gay, Bisexual, Transgender, Trans, Transsexual, Queer, Questioning, Intersex, Resources, Newcastle, Australia, ACON">
+		<meta name="description" content=""> <!-- Website description - To be updated -->
+    <meta name="author" content="Theodore Johnson">
+		<link rel="icon" href=""> <!-- Favicon - To be updated -->
+
 		<title>Hunter Centre for Sex and Gender Diversity</title>
 
-		<link href="css/reset.css" rel="stylesheet" />
-		<link href="css/main.css" rel="stylesheet" />
+		<link href="css/bootstrap-reboot-4.1.1.css" rel="stylesheet">
+		<link href="css/bootstrap-4.1.1.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
 	</head>
 
 	<body>
-		<div id="container">
-			<aside>
-				<header>
-					<div id="logo-container">
-						<img src="images/logo-placeholder.png" alt="Logo">
-					</div>
-					<div>
-					  Hunter Centre for Sex and Gender Diversity
-					</div>
-				</header>
-				<nav>
-					<ul>
-						<li> Home
-						<li> About
-						<li> Resources
-						<ul>
-							<li> Resources for Community Members
-							<li> Resources for Health Professionals
-							<li> Resources for Allies
-						</ul>
-						<li> News
-						<li> Help
-						<li> Contact Us
-					</ul>
-				</nav>
-			</aside><!-- "Whitespace-only text node" --><section>
-				Section
-			</section>
-		</div>
+		<!-- Fixed navbar -->
+		<header>
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+				<a class="navbar-brand" href="#">Navbar</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+	          <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+	            <div class="dropdown-menu" aria-labelledby="dropdown01">
+	              <a class="dropdown-item" href="#">Action</a>
+	              <a class="dropdown-item" href="#">Another action</a>
+	              <a class="dropdown-item" href="#">Something else here</a>
+	            </div>
+	          </li>
+          </ul>
+        </div>
+			</nav>
+		</header>
+
+		<!-- Page content -->
+		<main role="main" class="container">
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Hello, world!</h1>
+          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          </div>
+        </div>
+      </div>
+		</main>
+
+		<!-- Sticky footer -->
+		<footer class="footer">
+			<div class="container">
+				Footer
+			</div>
+		</footer>
+
+		<!-- jQuery first, then Popper.js, then Bootstrap.js -->
+		<!-- (Placed at the end of the document so the pages load faster) -->
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script src="scripts/popper-1.14.3.js"></script>
+    <script src="scripts/bootstrap-4.1.1.js"></script>
+	
 	</body>
 </html>
