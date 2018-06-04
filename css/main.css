@@ -20,9 +20,14 @@ html {
 }
 
 body {
-  margin-bottom: 60px; /* Margin bottom by footer height */
+  margin-bottom: 150px; /* Margin bottom by footer height */
   padding-top: 3.5rem; /* Move down content because we have a fixed navbar that is 3.5rem tall */
 }
+
+h1 {
+		font-size: 2.5rem;
+		text-align: center;
+	}
 
 /*-----------------------------------*/
 /*------>>> PAGE STRUCTURE <<<-------*/
@@ -40,7 +45,9 @@ body > .container {
 /*---------->>> HEADER <<<-----------*/
 /*-----------------------------------*/
 
-
+#nav-img {
+	width: 36px;
+}
 
 /*-----------------------------------*/
 /*---------->>> FOOTER <<<-----------*/
@@ -49,17 +56,29 @@ body > .container {
 .footer {
   background-color: #f7f7f7;
   bottom: 0;
-  font-size: 80%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
+  font-size: 85%;
+  height: 150px; /* Set the fixed height of the footer here */
+  /* line-height: 60px; /* Vertically center the text there */
+  padding: 15px;
   position: absolute;
   width: 100%;
 }
 
 .footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0;
+}
+
+.footer > div > p, #footer-copyright > p {
+	margin: 0;
+	text-align: center;
+}
+
+#footer-charity-logo {
+	flex-grow: 0; /* To keep the div the size of the img */
+}
+
+#img-charity-logo {
+	width: 80px;
 }
 
 /*-----------------------------------*/
@@ -68,4 +87,51 @@ body > .container {
 
 .jumbotron {
 	background-color: #ffffff;
+}
+
+.jumbotron > div > p {
+	text-align: center;
+}
+
+/*-----------------------------------*/
+/*------->>> MEDIA QUERIES <<<-------*/
+/*-----------------------------------*/
+
+/*
+	Small devices (landscape phones, 576px and up)
+		@media (min-width: 576px)
+
+	Medium devices (tablets, 768px and up)
+		@media (min-width: 768px)
+
+	Large devices (desktops, 992px and up)
+		@media (min-width: 992px)
+
+	Extra large devices (large desktops, 1200px and up)
+		@media (min-width: 1200px)
+*/
+
+@media (min-width: 576px) {
+	body {
+		margin-bottom: 130px;
+	}
+
+	h1 {
+		font-size: 3.5rem;
+	}
+	
+	.footer {
+		height: 130px;
+	}
+}
+
+@media (min-width: 768px) {
+	h1 {
+		font-size: 4.5rem;
+		text-align: left;
+	}
+
+	.jumbotron > div > p {
+		text-align: left;
+	}
 }

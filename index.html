@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -18,7 +20,7 @@
 		<!-- Fixed navbar -->
 		<header>
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-green">
-				<a class="navbar-brand" href="#"><img src="images/hcsgd-logo.png" style="width: 36px"></a>
+				<a class="navbar-brand" href="#"><img id="nav-img" src="images/hcsgd-logo.png"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -61,8 +63,8 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="container">
-          <h1 class="display-3 bd-text-green">Hunter Centre for Sex and Gender Diversity</h1>
-          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+          <h1 id="main-title" class="bd-text-green">Hunter Centre for Sex and Gender Diversity</h1>
+          <p class="lead">Lorem ipsum dolor sit amet, nam salutatus adipiscing cu, tantas graeci eum no. Ea vel mazim molestie, nam cu tale lucilius mediocrem, ius ne idque tantas propriae. Sit dicant invidunt eu, an wisi timeam adolescens pri.</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
         </div>
       </div>
@@ -97,7 +99,18 @@
 		<!-- Sticky footer -->
 		<footer class="footer">
 			<div class="container">
-				&copy; 2018 Hunter Centre for Sex and Gender Diversity
+				<div class="row">
+					<div class="col" id="footer-copyright">
+						<p>
+							&copy; 2018 Hunter Centre for Sex and Gender Diversity
+						</p>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col" id="footer-charity-logo">
+						<img src="images/registered-charity-logo.png" id="img-charity-logo">
+					</div>
+				</div>
 			</div>
 		</footer>
 
