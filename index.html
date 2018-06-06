@@ -17,91 +17,98 @@
 	</head>
 
 	<body>
-		<!-- Fixed navbar -->
-		<header>
-			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-green">
-				<a class="navbar-brand" href="#"><img id="nav-img" src="images/hcsgd-logo.png"></a>
+    <!-- Fixed navbar -->
+		<header class="navbar navbar-expand-md navbar-dark fixed-top bg-green">
+      <!-- Logo -->
+			<a class="navbar-brand" href="#"><img id="nav-img" src="images/hcsgd-logo.png"></a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-	          <li class="nav-item dropdown">
-	            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
-	            <div class="dropdown-menu" aria-labelledby="dropdown01">
-	              <a class="dropdown-item" href="#">Resources for Community Members</a>
-	              <a class="dropdown-item" href="#">Resources for Health Professionals</a>
-	              <a class="dropdown-item" href="#">Resources for Allies</a>
-	            </div>
-	          </li>
-	          <!--<li class="nav-item">
-              <a class="nav-link" href="#">News</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Events</a>
-            </li>-->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Help</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About HCSGD</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-          </ul>
-          <!-- Facebook nav item for later use when we have a Facebook page up and running
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-            	<a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
-            </li>
-          </ul>
-         -->
-        </div>
-			</nav>
+      <!-- Navigation menu button for when resolution is less than 768px wide -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar left -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Resources for Community Members</a>
+              <a class="dropdown-item" href="#">Resources for Health Professionals</a>
+              <a class="dropdown-item" href="#">Resources for Allies</a>
+            </div>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About HCSGD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+
+        <!-- Navbar right -->
+        <!-- Facebook nav item for later use when we have a Facebook page up and running
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+          	<a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+        </ul>-->
+      </div>
 		</header>
 
-		<!-- Page content -->
-		<main role="main" class="container">
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron bg-white">
-        <div class="container">
-          <h1 id="main-title" class="bd-text-green">Hunter Centre for Sex and Gender Diversity</h1>
-          <p class="lead">Lorem ipsum dolor sit amet, nam salutatus adipiscing cu, tantas graeci eum no. Ea vel mazim molestie, nam cu tale lucilius mediocrem, ius ne idque tantas propriae. Sit dicant invidunt eu, an wisi timeam adolescens pri.</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
-        </div>
-      </div>
-
+		<!-- Main content -->
+		<main id="content" class="bd-masthead" role="main">
       <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-4 border border-white bg-light sm-box-pad">
-            <h3>Provide Assistance</h3>
-            <p>To assist sexually and gender diverse individuals of all ages to be who they are and where they are, at any point in time.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-          </div>
-          <div class="col-md-4 border border-white bg-light sm-box-pad">
-            <h3>Establish Pathways</h3>
-            <p>To discover, establish and maintain clear pathways to best practices for the trans*, intersex and gender diverse community in: health, education, law, employment and housing.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-          </div>
-          <div class="col-md-4 border border-white bg-light sm-box-pad">
-            <h3>Achieved By</h3>
-            <p><ul>
-							  <li>Advocating
-							  <li>Including
-							  <li>Documenting
-							  <li>Educating
-						 	</ul></p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+        <div class="row align-items-center">
+          <div class="col text-center text-md-left pr-md-5">
+            <h1 class="mb-3 bd-text-green">Hunter Centre for Sex and Gender Diversity</h1>
+            <p class="lead mb-4">Lorem ipsum dolor sit amet, nam salutatus adipiscing cu, tantas graeci eum no. Ea vel mazim molestie, nam cu tale lucilius mediocrem, ius ne idque tantas propriae. Sit dicant invidunt eu, an wisi timeam adolescens pri.</p>
+            <div class="d-flex flex-column flex-md-row lead mb-3">
+              <a class="btn btn-lg btn-outline-primary" href="#" role="button">Learn more</a>
+            </div>
           </div>
         </div>
       </div>
 		</main>
+
+    <!-- Supporting content boxes -->
+    <div class="masthead-followup row m-0 border border-white">
+      <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+        <h3>Provide Assistance</h3>
+        <p>To assist sexually and gender diverse individuals of all ages to be who they are and where they are, at any point in time.</p>
+        <hr class="half-rule" style="width: 6rem; margin: 2.5rem 0">
+        <a class="btn btn-outline-primary" href="#" role="button">View details</a>
+      </div>
+      <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+        <h3>Establish Pathways</h3>
+        <p>To discover, establish and maintain clear pathways to best practices for the trans*, intersex and gender diverse community in: health, education, law, employment and housing.</p>
+        <hr class="half-rule" style="width: 6rem; margin: 2.5rem 0">
+        <a class="btn btn-outline-primary" href="#" role="button">View details</a>
+      </div>
+      <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+        <h3>Achieved By</h3>
+        <p><ul>
+            <li>Advocating
+            <li>Including
+            <li>Documenting
+            <li>Educating
+          </ul></p>
+        <hr class="half-rule" style="width: 6rem; margin: 2.5rem 0">
+        <a class="btn btn-outline-primary" href="#" role="button">View details</a>
+      </div>
+    </div>
 
 		<!-- Sticky footer -->
 		<footer class="footer">

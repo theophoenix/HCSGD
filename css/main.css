@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  margin-bottom: 150px; /* Margin bottom by footer height */
+  margin-bottom: 170px; /* Margin bottom by footer height */
   padding-top: 3.5rem; /* Move down content because we have a fixed navbar that is 3.5rem tall */
 }
 
@@ -37,13 +37,7 @@ h1 {
 /*------>>> PAGE STRUCTURE <<<-------*/
 /*-----------------------------------*/
 
-body > .container {
-  padding: 33px 15px 0;
-}
 
-.sm-box-pad {
-	padding-top: 15px;
-}
 
 /*-----------------------------------*/
 /*---------->>> HEADER <<<-----------*/
@@ -54,6 +48,14 @@ body > .container {
 }
 
 /*-----------------------------------*/
+/*----------->>> MAIN <<<------------*/
+/*-----------------------------------*/
+
+.bd-masthead {
+	padding: 3rem 15px;
+}
+
+/*-----------------------------------*/
 /*---------->>> FOOTER <<<-----------*/
 /*-----------------------------------*/
 
@@ -61,7 +63,7 @@ body > .container {
   background-color: #f7f7f7;
   bottom: 0;
   font-size: 85%;
-  height: 150px; /* Set the fixed height of the footer here */
+  height: 170px; /* Set the fixed height of the footer here */
   /* line-height: 60px; /* Vertically center the text there */
   padding: 15px;
   position: absolute;
@@ -81,16 +83,14 @@ body > .container {
 }
 
 #img-charity-logo {
-	width: 80px;
+	width: 100px;
 }
 
 /*-----------------------------------*/
 /*---------->>> OTHER <<<------------*/
 /*-----------------------------------*/
 
-.jumbotron > div > p {
-	text-align: center;
-}
+
 
 /*-----------------------------------*/
 /*------->>> MEDIA QUERIES <<<-------*/
@@ -99,7 +99,11 @@ body > .container {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 	body {
-		margin-bottom: 130px;
+		margin-bottom: 150px;
+	}
+
+	.bd-masthead {
+		padding: 5rem 0 5rem 0;
 	}
 
 	h1 {
@@ -107,13 +111,13 @@ body > .container {
 	}
 	
 	.footer {
-		height: 130px;
+		height: 150px;
 	}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	header > nav > div {
+	header > div {
 		font-size: 0.875rem;
 	}
 
@@ -121,15 +125,11 @@ body > .container {
 		font-size: 4rem;
 		text-align: left;
 	}
-
-	.jumbotron > div > p {
-		text-align: left;
-	}
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	header > nav > div {
+	header > div {
 		font-size: 1rem;
 	}
 }
