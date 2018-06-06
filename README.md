@@ -12,7 +12,8 @@ This website was built for the Australian based charity _Hunter Centre for Sex a
 - [ ] ~~Add links to the footer~~
 - [x] Add charity status logo to the footer
 - [ ] Ensure the three supporting content boxes can be linked to relevant pages
-- [x] Title needs to be responsive and resize accordingly
+- [x] Responsive title
+- [x] Responsive footer
 - [ ] Move Contact Us link to the right side of the navbar
 - [ ] Stretch the three supporting content boxes across the page
 
