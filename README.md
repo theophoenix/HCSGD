@@ -6,17 +6,15 @@ This website was built for the Australian based charity _Hunter Centre for Sex a
 
 ### Home Page
 
-- [x] Set up home page
+- [x] ~~Set up home page~~
 - [ ] Come up with a Call-To-Action message for the jumbotron
 - [ ] Add images to the three supporting content boxes
-- [ ] ~~Add links to the footer~~
-- [x] Add charity status logo to the footer
+- [x] ~~Add charity status logo to the footer~~
 - [ ] Ensure the three supporting content boxes can be linked to relevant pages
-- [x] Responsive title
-- [x] Responsive footer
-- [ ] ~~Move Contact Us link to the right side of the navbar~~
-- [x] Add Facebook icon to the right side of the navbar for later use
-- [x] Stretch the three supporting content boxes across the page
+- [x] ~~Responsive title~~
+- [x] ~~Responsive footer~~
+- [x] ~~Add Facebook icon to the right side of the navbar for later use~~
+- [x] ~~Stretch the three supporting content boxes across the page~~
 
 ### Resource Pages
 
