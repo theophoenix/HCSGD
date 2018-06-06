@@ -10,6 +10,10 @@
 	background-color: #28a745;
 }
 
+.bg-white {
+	background-color: #ffffff;
+}
+
 /*-----------------------------------*/
 /*---------->>> GLOBAL <<<-----------*/
 /*-----------------------------------*/
@@ -68,9 +72,8 @@ body > .container {
   padding: 0;
 }
 
-.footer > div > p, #footer-copyright > p {
+#footer-copyright > p {
 	margin: 0;
-	text-align: center;
 }
 
 #footer-charity-logo {
@@ -85,10 +88,6 @@ body > .container {
 /*---------->>> OTHER <<<------------*/
 /*-----------------------------------*/
 
-.jumbotron {
-	background-color: #ffffff;
-}
-
 .jumbotron > div > p {
 	text-align: center;
 }
@@ -97,20 +96,7 @@ body > .container {
 /*------->>> MEDIA QUERIES <<<-------*/
 /*-----------------------------------*/
 
-/*
-	Small devices (landscape phones, 576px and up)
-		@media (min-width: 576px)
-
-	Medium devices (tablets, 768px and up)
-		@media (min-width: 768px)
-
-	Large devices (desktops, 992px and up)
-		@media (min-width: 992px)
-
-	Extra large devices (large desktops, 1200px and up)
-		@media (min-width: 1200px)
-*/
-
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 	body {
 		margin-bottom: 130px;
@@ -125,6 +111,7 @@ body > .container {
 	}
 }
 
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	header > nav > div {
 		font-size: 0.875rem;
@@ -140,8 +127,15 @@ body > .container {
 	}
 }
 
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	header > nav > div {
 		font-size: 1rem;
 	}
 }
+
+/* Extra large devices (large desktops, 1200px and up)
+	@media (min-width: 1200px) {
+		...
+	}
+*/
