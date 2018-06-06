@@ -14,7 +14,8 @@ This website was built for the Australian based charity _Hunter Centre for Sex a
 - [ ] Ensure the three supporting content boxes can be linked to relevant pages
 - [x] Responsive title
 - [x] Responsive footer
-- [ ] Move Contact Us link to the right side of the navbar
+- [ ] ~~Move Contact Us link to the right side of the navbar~~
+- [x] Add Facebook icon to the right side of the navbar for later use
 - [ ] Stretch the three supporting content boxes across the page
 
 ### Resource Pages
