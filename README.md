@@ -15,10 +15,12 @@ This website was built for the Australian based charity _Hunter Centre for Sex a
 - [x] ~~Responsive footer~~
 - [x] ~~Add Facebook icon to the right side of the navbar for later use~~
 - [x] ~~Stretch the three supporting content boxes across the page~~
+- [ ] Polish navbar button in < 768px resolutions
 
 ### Resource Pages
 
 - [ ] Set up resource pages
+- [ ] Implement working search bar
 
 ### Help Page
 
