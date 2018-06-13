@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Responsive viewport meta tag to ensure proper rendering -->
+		<meta name="keywords" content="Hunter, Centre, for, Sex, and, Gender, Diversity, LGBT, LGBTQ, LGBTQI, Lesbian, Gay, Bisexual, Transgender, Trans, Transsexual, Queer, Questioning, Intersex, Resources, Newcastle, Australia, ACON">
+		<meta name="description" content=""> <!-- Website description - To be updated -->
+    <meta name="author" content="Theodore Johnson">
+		<link rel="icon" href=""> <!-- Favicon - To be updated -->
+
+		<title>Hunter Centre for Sex and Gender Diversity</title>
+
+		<link href="css/bootstrap-reboot-4.1.1.css" rel="stylesheet">
+		<link href="css/bootstrap-4.1.1.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
+    <link href="css/sidebar.css" rel="stylesheet">
+    <link href="css/content.css" rel="stylesheet">
+    <link href="css/algolia.css" rel="stylesheet">
+	</head>
+
+	<body>
+    <!-- Navbar -->
+		<header class="navbar navbar-expand-md navbar-dark bg-green">
+      <!-- Logo -->
+			<a class="navbar-brand" href="#"><img id="nav-img" src="images/hcsgd-logo.png"></a>
+
+      <!-- Navigation menu button for when resolution is less than 768px wide -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar left -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item active" href="resources-for-community-members.html">Resources for Community Members</a>
+              <a class="dropdown-item" href="#">Resources for Health Professionals</a>
+              <a class="dropdown-item" href="#">Resources for Allies</a>
+            </div>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About HCSGD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+
+        <!-- Navbar right -->
+        <!-- Facebook nav item for later use when we have a Facebook page up and running
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+          	<a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+        </ul>-->
+      </div>
+		</header>
+
+    <!-- Content -->
+    <div class="container-fluid">
+      <div class="row flex-xl nowrap">
+        <!-- Sidebar -->
+        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+          <!-- Search form -->
+          <form class="bd-search d-flex align-items-center">
+            <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;">
+              <input class="form-control ds-input" id="search-input" placeholder="Search..." autocomplete="off" data-siteurl="https://getbootstrap.com" data-docs-version="4.1" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" style="position: relative; vertical-align: top;" dir="auto" type="search">
+              <pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: optimizelegibility; text-transform: none;"></pre>
+              <!-- Autocomplete dropdown box -->
+              <span class="ds-dropdown-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none; right: auto;" role="listbox" id="algolia-autocomplete-listbox-0">
+                <div class="ds-dataset-1"></div>
+              </span>
+            </span>
+            <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false">
+                <title>Menu</title>
+                <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path>
+              </svg>
+            </button>
+          </form>
+
+          <!-- Navigation menu -->
+          <nav id="bd-docs-nav" class="bd-links collapse">
+            <div class="bd-toc-item active">
+              <a class="bd-toc-link" href="">Resources for Community Members</a>
+              <ul class="nav bd-sidenav">
+                <li class="active bd-sidenav-active">
+                  <a href="">Category 1</a>
+                </li>
+                <li>
+                  <a href="">Category 2</a>
+                </li>
+                <li>
+                  <a href="">Category 3</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="bd-toc-item">
+              <a class="bd-toc-link" href="">Resources for Health Professionals</a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="">Category 1</a>
+                </li>
+                <li>
+                  <a href="">Category 2</a>
+                </li>
+                <li>
+                  <a href="">Category 3</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="bd-toc-item">
+              <a class="bd-toc-link" href="">Resources for Allies</a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="">Category 1</a>
+                </li>
+                <li>
+                  <a href="">Category 2</a>
+                </li>
+                <li>
+                  <a href="">Category 3</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <!-- Main content -->
+        <div class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
+          <!-- h1 Introduction -->
+          <h1 id="content" class="bd-title">Resources for Community Members</h1>
+          <p class="bd-lead">
+            ...
+          </p>
+
+          <!-- h2 -->
+          <h2 id="quick-start"> <!-- Change the id -->
+            <!-- ::before -->
+            <div>
+              Category 1
+              <a class="anchorjs-link " href="#quick-start" aria-label="Anchor" data-anchorjs-icon="#" style="padding-left: 0.375em;">
+                <!-- ::after -->
+              </a>
+            </div>
+          </h2>
+          <p>
+            ...
+          </p>
+
+          <!-- h3 -->
+          <h3 id="css"> <!-- Change the id -->
+            <div>
+              Subcategory 1
+              <a class="anchorjs-link " href="#css" aria-label="Anchor" data-anchorjs-icon="#" style="padding-left: 0.375em;">
+                <!-- ::after -->
+              </a>
+            </div>
+          </h3>
+          <p>
+            ...
+          </p>
+        </div>
+      </div>
+    </div>
+
+		<!-- Sticky footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col" id="footer-copyright">
+						<p class="text-center">
+							&copy; 2018 Hunter Centre for Sex and Gender Diversity
+						</p>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col" id="footer-charity-logo">
+						<img src="images/registered-charity-logo.png" id="img-charity-logo">
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- jQuery first, then Popper.js, then Bootstrap.js -->
+		<!-- (Placed at the end of the document so the pages load faster) -->
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script src="scripts/popper-1.14.3.js"></script>
+    <script src="scripts/bootstrap-4.1.1.js"></script>
+    <script src="scripts/fontawesome-all-5.0.13.js" defer></script>
+	
+	</body>
+</html>

@@ -1,0 +1,117 @@
+/* stylelint-disable no-duplicate-selectors, selector-max-combinators, selector-max-compound-selectors, selector-max-type, selector-no-qualifying-type */
+
+/* Automatically style Markdown-based tables like a Bootstrap `.table`. */
+
+.bd-content {
+  order: 1;
+}
+
+.bd-content > h2[id], .bd-content > h3[id], .bd-content > h4[id] {
+  pointer-events: none;
+}
+
+.bd-content > h2[id] > div, .bd-content > h3[id] > div, .bd-content > h4[id] > div, .bd-content > h2[id] > a, .bd-content > h3[id] > a, .bd-content > h4[id] > a {
+  pointer-events: auto;
+}
+
+.bd-content > h2[id]::before, .bd-content > h3[id]::before, .bd-content > h4[id]::before {
+  display: block;
+  height: 6rem;
+  margin-top: -6rem;
+  visibility: hidden;
+  content: "";
+}
+
+.bd-content > table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.bd-content > table > thead > tr > th, .bd-content > table > tbody > tr > th, .bd-content > table > tfoot > tr > th, .bd-content > table > thead > tr > td, .bd-content > table > tbody > tr > td, .bd-content > table > tfoot > tr > td {
+  padding: 1px;
+  vertical-align: top;
+  border: 1px solid red;
+}
+
+.bd-content > table > thead > tr > th > p:last-child, .bd-content > table > tbody > tr > th > p:last-child, .bd-content > table > tfoot > tr > th > p:last-child, .bd-content > table > thead > tr > td > p:last-child, .bd-content > table > tbody > tr > td > p:last-child, .bd-content > table > tfoot > tr > td > p:last-child {
+  margin-bottom: 0;
+}
+
+.bd-content > table td:first-child > code {
+  white-space: nowrap;
+}
+
+.bd-content > h2:not(:first-child) {
+  margin-top: 3rem;
+}
+
+.bd-content > h3 {
+  margin-top: 1.5rem;
+}
+
+.bd-content > ul li, .bd-content > ol li {
+  margin-bottom: 0.25rem;
+}
+
+.bd-title {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+.bd-lead {
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.bd-text-purple {
+  color: purple;
+}
+.bd-text-purple-bright {
+  color: purple;
+}
+
+/*-----------------------------------*/
+/*------->>> MEDIA QUERIES <<<-------*/
+/*-----------------------------------*/
+
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  ...
+} */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .bd-lead {
+    max-width: 80%;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .bd-title {
+    font-size: 3rem;
+  }
+
+  .bd-content > table {
+    display: block;
+    overflow-x: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+
+  .bd-content > table.table-bordered {
+    border: 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .bd-content > ul, .bd-content > ol, .bd-content > p {
+    max-width: 80%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  ...
+} */
