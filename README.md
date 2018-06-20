@@ -21,6 +21,7 @@ This website was built for the Australian based charity _Hunter Centre for Sex a
 
 - [ ] Set up resource pages
 - [ ] Implement working search bar
+- [ ] Clean up css
 
 ### Help Page
 
