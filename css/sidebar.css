@@ -22,11 +22,6 @@
   border-bottom: 1px solid rgba(0, 0, 0, .05);
 }
 
-.bd-search .form-control:focus {
-  border-color: #28a745;
-  box-shadow: 0 0 0 3px rgba(40, 167, 69, .25);
-}
-
 .bd-search-docs-toggle {
   line-height: 1;
   color: #212529;
