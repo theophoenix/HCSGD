@@ -19,9 +19,10 @@ This website was built for the Australian based charity _Hunter Centre for Sex a
 
 ### Resource Pages
 
-- [ ] Set up resource pages
+- [x] ~~Set up resource pages~~
 - [ ] Implement working search bar
 - [ ] Clean up css
+- [ ] Add resources
 
 ### Help Page
 
@@ -35,8 +36,10 @@ This website was built for the Australian based charity _Hunter Centre for Sex a
 
 ### Contact Page
 
-- [ ] Set up contact page
-- [ ] Add a contact form
+- [x] ~~Set up contact page~~
+- [x] ~~Add a contact form~~
+- [ ] Implement php to make form usable
+- [ ] Make the form responsive to window sizing
 
 ## Framework Used
 
