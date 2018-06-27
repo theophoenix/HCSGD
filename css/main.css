@@ -54,11 +54,6 @@ h1 {
 	padding: 3rem 15px;
 }
 
-.half-rule {
-	margin: 2.5rem 0;
-	width: 6rem;
-}
-
 .dropdown-item.active { /* Resources dropdown menu */
   font-weight: 500;
   color: #212529;
@@ -69,9 +64,22 @@ h1 {
   background-size: .75rem .75rem;
 }
 
+.error { /* Contact form */
+	color: red;
+}
+
 .form-control:focus {
   border-color: #28a745;
   box-shadow: 0 0 0 3px rgba(40, 167, 69, .25);
+}
+
+.half-rule {
+	margin: 2.5rem 0;
+	width: 6rem;
+}
+
+.success { /* Contact form */
+	color: green;
 }
 
 /*-----------------------------------*/
