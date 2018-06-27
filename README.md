@@ -1,6 +1,6 @@
-# HCSGD Website
+# HGA Website
 
-This website was built for the Australian based charity _Hunter Centre for Sex and Gender Diversity_.
+This website was built for the Australian based charity _Hunter Gender Alliance_.
 
 ## To-Do
 

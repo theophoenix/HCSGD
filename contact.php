@@ -9,12 +9,12 @@ include('form_process.php');
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Responsive viewport meta tag to ensure proper rendering -->
-    <meta name="keywords" content="Hunter, Centre, for, Sex, and, Gender, Diversity, LGBT, LGBTQ, LGBTQI, Lesbian, Gay, Bisexual, Transgender, Trans, Transsexual, Queer, Questioning, Intersex, Resources, Newcastle, Australia, ACON">
+    <meta name="keywords" content="Hunter, Centre, for, Sex, and, Gender, Diversity, Alliance, LGBT, LGBTQ, LGBTQI, Lesbian, Gay, Bisexual, Transgender, Trans, Transsexual, Queer, Questioning, Intersex, Resources, Newcastle, Australia, ACON">
     <meta name="description" content=""> <!-- Website description - To be updated -->
     <meta name="author" content="Theodore Johnson">
     <link rel="icon" href=""> <!-- Favicon - To be updated -->
 
-    <title>Contact Us - Hunter Centre for Sex and Gender Diversity</title>
+    <title>Contact Us - Hunter Gender Alliance</title>
 
     <link href="css/bootstrap-reboot-4.1.1.css" rel="stylesheet">
     <link href="css/bootstrap-4.1.1.css" rel="stylesheet">
@@ -25,7 +25,7 @@ include('form_process.php');
     <!-- Navbar -->
     <header class="navbar navbar-expand-md navbar-dark bg-green">
       <!-- Logo -->
-      <a class="navbar-brand" href="#"><img id="nav-img" src="images/hcsgd-logo.png"></a>
+      <a class="navbar-brand" href="#"><img id="nav-img" src="images/hga-logo.png"></a>
 
       <!-- Navigation menu button for when resolution is less than 768px wide -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,7 +106,7 @@ include('form_process.php');
         <div class="row">
           <div class="col" id="footer-copyright">
             <p class="text-center">
-              &copy; 2018 Hunter Centre for Sex and Gender Diversity
+              &copy; 2018 Hunter Gender Alliance
             </p>
           </div>
         </div>
