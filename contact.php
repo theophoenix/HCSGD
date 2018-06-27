@@ -56,7 +56,7 @@ include('form_process.php');
             <a class="nav-link" href="#">Help</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About HCSGD</a>
+            <a class="nav-link" href="#">About HGA</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="contact.php">Contact Us<span class="sr-only">(current)</span></a>
