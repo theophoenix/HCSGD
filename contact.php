@@ -53,10 +53,10 @@ include('form_process.php');
             <a class="nav-link" href="#">Events</a>
           </li>-->
           <li class="nav-item">
-            <a class="nav-link" href="#">Help</a>
+            <a class="nav-link" href="help.html">Help</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About HGA</a>
+            <a class="nav-link" href="about.html">About HGA</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="contact.php">Contact Us<span class="sr-only">(current)</span></a>
@@ -106,7 +106,9 @@ include('form_process.php');
         <div class="row">
           <div class="col" id="footer-copyright">
             <p class="text-center">
-              &copy; 2018 Hunter Gender Alliance <br>
+              &copy; 2018 Hunter Gender Alliance
+            </p>
+            <p class="text-center text-muted">
               Operating as Hunter Centre for Sex and Gender Diversity <br>
               ABN 14 303 733 103
             </p>
