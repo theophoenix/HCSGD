@@ -75,7 +75,7 @@ include('form_process.php');
 
     <!-- Main content -->
     <main role="main">
-      <div class="container">
+      <div id="form-container" class="container">
         <div class="col-md-5" style="margin: auto">
           <div class="form-area">  
             <form role="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">

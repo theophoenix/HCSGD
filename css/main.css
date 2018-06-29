@@ -70,7 +70,7 @@ h1 {
   background-size: .75rem .75rem;
 }
 
-.container-fluid {
+.container-fluid, #form-container {
 	padding-top: 62px; /* 62px = navbar height */
 }
 
