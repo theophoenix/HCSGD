@@ -78,8 +78,8 @@ include('form_process.php');
       <div class="container">
         <div class="row">
           <div class="col alert-message">
-            <div class="d-inline-block align-top pr-2 pb-2">
-              <svg class="light-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12" y2="16"/></svg> <!-- "alert-circle" from https://feathericons.com/ -->
+            <div class="d-inline-block align-top pt-1 pr-2 pb-3">
+              <i class="fas fa-exclamation-circle light-orange"></i>
             </div>
             <div class="d-inline-block align-middle bd-text-brown">
               <b>Work in progress!</b> <br>
