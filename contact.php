@@ -118,11 +118,11 @@ include('form_process.php');
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col" id="footer-copyright">
+          <div class="col">
             <p class="text-center">
-              &copy; 2018 Hunter Gender Alliance
+              Hunter Gender Alliance
             </p>
-            <p class="text-center text-muted">
+            <p class="text-center text-muted text-tiny">
               Operating as Hunter Centre for Sex and Gender Diversity <br>
               ABN 14 303 735 103
             </p>
