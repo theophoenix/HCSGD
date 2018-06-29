@@ -24,13 +24,13 @@ html {
 }
 
 body {
-  margin-bottom: 210px; /* Margin bottom = footer height */
+  margin-bottom: 210px; /* margin-bottom: <footer height> */
 }
 
 h1 {
-		font-size: 2.5rem;
-		text-align: center;
-	}
+	font-size: 2.5rem;
+	text-align: center;
+}
 
 /*-----------------------------------*/
 /*------>>> PAGE STRUCTURE <<<-------*/
@@ -42,6 +42,12 @@ h1 {
 /*---------->>> HEADER <<<-----------*/
 /*-----------------------------------*/
 
+.navbar {
+	position: fixed;
+	width: 100vw;
+	z-index: 1000;
+}
+
 #nav-img {
 	width: 36px;
 }
@@ -51,7 +57,7 @@ h1 {
 /*-----------------------------------*/
 
 .bd-masthead {
-	padding: 3rem 15px;
+	padding: calc(3rem + 62px) 15px 3rem 15px; /* 62px = navbar height */
 }
 
 .dropdown-item.active { /* Resources dropdown menu */
@@ -62,6 +68,10 @@ h1 {
   background-repeat: no-repeat;
   background-position: .4rem .6rem;
   background-size: .75rem .75rem;
+}
+
+.container-fluid {
+	padding-top: 62px; /* 62px = navbar height */
 }
 
 .error { /* Contact form */
@@ -129,7 +139,7 @@ h1 {
 	}
 
 	.bd-masthead {
-		padding: 5rem 0 5rem 0;
+		padding: calc(5rem + 62px) 0 5rem 0; /* 62px = navbar height */
 	}
 
 	h1 {

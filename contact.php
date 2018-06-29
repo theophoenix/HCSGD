@@ -110,7 +110,7 @@ include('form_process.php');
             </p>
             <p class="text-center text-muted">
               Operating as Hunter Centre for Sex and Gender Diversity <br>
-              ABN 14 303 733 103
+              ABN 14 303 735 103
             </p>
           </div>
         </div>
