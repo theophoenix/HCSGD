@@ -2,6 +2,10 @@
 /*------>>> COLOR PALETTE <<<--------*/
 /*-----------------------------------*/
 
+.bd-text-brown { /* Alert message */
+	color: #4f3202;
+}
+
 .bd-text-green {
 	color: #28a745;
 }
@@ -138,6 +142,7 @@ h1 {
 .alert-message {
 	background-color: #fff9ed;
 	border-left: 4px solid #ffc646; /* "light-orange", as above */
+	border-radius: 3px;
 	padding: 15px;
 }
 
