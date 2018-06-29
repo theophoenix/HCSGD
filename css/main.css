@@ -2,10 +2,6 @@
 /*------>>> COLOR PALETTE <<<--------*/
 /*-----------------------------------*/
 
-.bd-text-brown { /* Alert message */
-	color: #4f3202;
-}
-
 .bd-text-green {
 	color: #28a745;
 }
@@ -143,11 +139,18 @@ h1 {
 /*---------->>> OTHER <<<------------*/
 /*-----------------------------------*/
 
-.alert-message {
-	background-color: #fff9ed;
-	border-left: 4px solid #ffc646; /* "light-orange", as above */
+.message {
+	border: 1px solid #eee;
 	border-radius: 3px;
 	padding: 15px;
+}
+
+.warning-message {
+	border-left: 0.25rem solid #dc3545; /* Bootstrap's $red */
+}
+
+.information-message {
+	border-left: 0.25rem solid #007bff; /* Bootstrap's $primary */
 }
 
 /*-----------------------------------*/

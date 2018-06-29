@@ -76,12 +76,24 @@ include('form_process.php');
     <!-- Main content -->
     <main class="bd-masthead" role="main">
       <div class="container">
-        <div class="row">
-          <div class="col alert-message">
+        <div class="row mb-2">
+          <div class="col message warning-message">
             <div class="d-inline-block align-top pt-1 pr-2 pb-3">
-              <i class="fas fa-exclamation-circle light-orange"></i>
+              <i class="fas fa-exclamation-triangle text-danger"></i> <!-- Warning icon -->
             </div>
-            <div class="d-inline-block align-middle bd-text-brown">
+            <div class="d-inline-block align-middle">
+              <b>Work in progress!</b> <br>
+              More detailed documentation is coming soon.
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col message information-message">
+            <div class="d-inline-block align-top pt-1 pr-2 pb-3">
+              <i class="fas fa-info-circle text-primary"></i> <!-- Information icon -->
+            </div>
+            <div class="d-inline-block align-middle">
               <b>Work in progress!</b> <br>
               More detailed documentation is coming soon.
             </div>
