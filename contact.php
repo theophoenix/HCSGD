@@ -74,27 +74,35 @@ include('form_process.php');
     </header>
 
     <!-- Main content -->
-    <main role="main">
-      <div id="form-container" class="container">
-        <div class="col-md-5" style="margin: auto">
-          <div class="form-area">  
-            <form role="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
-              <br style="clear: both">
-              <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
-              <div class="form-group">
-                <input id="name" class="form-control" type="text" name="name" value="<?= $name ?>" placeholder="Name">
-                <span class="error"><?= $name_error ?></span>
-              </div>
-              <div class="form-group">
-                <input id="email" class="form-control" type="text" name="email" value="<?= $email ?>" placeholder="Email">
-                <span class="error"><?= $email_error ?></span>
-              </div>
-              <div class="form-group">
-                <textarea id="message" class="form-control" type="text" name="message" value="<?= $message ?>" placeholder="Message"></textarea>
-              </div>
-              <button id="submit" class="btn btn-outline-primary" type="submit" name="submit">Submit Form</button>
-              <div class="success"><?= $success ?></div>
-            </form>
+    <main class="bd-masthead" role="main">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col alert-message">
+            <svg class="light-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12" y2="16"/></svg> <!-- "alert-circle" from https://feathericons.com/ -->
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="form-area">  
+              <form role="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
+                <br style="clear: both">
+                <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
+                <div class="form-group">
+                  <input id="name" class="form-control" type="text" name="name" value="<?= $name ?>" placeholder="Name">
+                  <span class="error"><?= $name_error ?></span>
+                </div>
+                <div class="form-group">
+                  <input id="email" class="form-control" type="text" name="email" value="<?= $email ?>" placeholder="Email">
+                  <span class="error"><?= $email_error ?></span>
+                </div>
+                <div class="form-group">
+                  <textarea id="message" class="form-control" type="text" name="message" value="<?= $message ?>" placeholder="Message"></textarea>
+                </div>
+                <button id="submit" class="btn btn-outline-primary" type="submit" name="submit">Submit Form</button>
+                <div class="success"><?= $success ?></div>
+              </form>
+            </div>
           </div>
         </div>
       </div>

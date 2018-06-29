@@ -14,6 +14,10 @@
 	background-color: #ffffff;
 }
 
+.light-orange {
+	color: #ffc646;
+}
+
 /*-----------------------------------*/
 /*---------->>> GLOBAL <<<-----------*/
 /*-----------------------------------*/
@@ -70,12 +74,17 @@ h1 {
   background-size: .75rem .75rem;
 }
 
-.container-fluid, #form-container {
+.container-fluid {
 	padding-top: 62px; /* 62px = navbar height */
 }
 
 .error { /* Contact form */
 	color: red;
+}
+
+.form-area {
+	max-width: 400px;
+	margin: auto;
 }
 
 .form-control:focus {
@@ -126,7 +135,11 @@ h1 {
 /*---------->>> OTHER <<<------------*/
 /*-----------------------------------*/
 
-
+.alert-message {
+	background-color: #fff9ed;
+	border-left: 4px solid #ffc646; /* "light-orange", as above */
+	padding: 15px;
+}
 
 /*-----------------------------------*/
 /*------->>> MEDIA QUERIES <<<-------*/
