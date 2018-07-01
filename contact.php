@@ -52,9 +52,9 @@ include('form_process.php');
           <li class="nav-item">
             <a class="nav-link" href="#">Events</a>
           </li>-->
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link" href="help.html">Help</a>
-          </li>
+          </li>-->
           <li class="nav-item">
             <a class="nav-link" href="about.html">About HGA</a>
           </li>
@@ -75,7 +75,7 @@ include('form_process.php');
 
     <!-- Main content -->
     <main class="bd-masthead" role="main">
-      <div class="container contact-container">
+      <div class="container container-md">
         <div class="row alert-message-box">
           <div class="col warning-message">
             <div class="align-top alert-message-icon">
@@ -84,8 +84,8 @@ include('form_process.php');
             <div class="align-middle alert-message-text">
               <h3>Where can I get help?</h3>
               <p>Please call Emergency Services (000) or the Suicide Callback Service (1300-659-467) if you or someone you know is at immediate risk of self-harm or suicide.</p>
-              <p>For 24/7 crisis support, call Lifeline (13-11-14, for all ages) or Kids Helpline (1800-55-1800, for anyone 25 and under).</p>
-              <p>If you ever feel unsafe at home or work, contact <a href="https://eheadspace.org.au">Headspace</a> (1800-650-890, for anyone 25 and under) or <a href="https://qlife.org.au">QLife</a> (1800-184-527, for all ages, LGBTI-specific).</p>
+              <p>For 24/7 crisis support, call Lifeline (13-11-14) for all ages or Kids Helpline (1800-55-1800) for anyone 25 and under.</p>
+              <p>If you ever feel unsafe at home or work, contact <a href="https://eheadspace.org.au">Headspace</a> (1800-650-890) for anyone 25 and under or the LGBTI-specific <a href="https://qlife.org.au">QLife</a> (1800-184-527) for all ages.</p>
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@ include('form_process.php');
                 </div>
                 <div class="success"><?= $success ?></div>
                 <div>
-                  <p class="text-center text-muted text-tiny">Disclaimer: When you contact us, the opinions expressed in the reply are those of the author only and do not represent the official view of Hunter Gender Alliance unless explicitly stated.</p>
+                  <p class="text-center text-muted text-tiny" style="margin-bottom: 0">Disclaimer: When you contact us, the opinions expressed in the reply are those of the author only and do not represent the official view of Hunter Gender Alliance unless explicitly stated.</p>
                 </div>
               </form>
             </div>
