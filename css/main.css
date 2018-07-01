@@ -14,10 +14,6 @@
 	background-color: #ffffff;
 }
 
-.light-orange {
-	color: #ffc646;
-}
-
 /*-----------------------------------*/
 /*---------->>> GLOBAL <<<-----------*/
 /*-----------------------------------*/
@@ -34,6 +30,10 @@ body {
 h1 {
 	font-size: 2.5rem;
 	text-align: center;
+}
+
+h3 {
+  font-size: 1.65rem;
 }
 
 /*-----------------------------------*/
@@ -74,6 +74,10 @@ h1 {
   background-size: .75rem .75rem;
 }
 
+.contact-container {
+	max-width: 800px;
+}
+
 .container-fluid {
 	padding-top: 62px; /* 62px = navbar height */
 }
@@ -87,6 +91,10 @@ h1 {
 	margin: auto;
 }
 
+.form-area > form > .d-flex > button {
+	width: 150px;
+}
+
 .form-control:focus {
   border-color: #28a745;
   box-shadow: 0 0 0 3px rgba(40, 167, 69, .25);
@@ -97,8 +105,28 @@ h1 {
 	width: 6rem;
 }
 
+.alert-message-box {
+	border: 1px solid #eee;
+	border-radius: 3px;
+  margin-bottom: 2rem;
+}
+
+.alert-message-text {
+	padding-left: 30px;
+}
+
 .success { /* Contact form */
 	color: green;
+}
+
+.information-message {
+	border-left: 0.25rem solid #007bff; /* Bootstrap's $primary */
+  padding: 15px 15px 0 15px;
+}
+
+.warning-message {
+	border-left: 0.25rem solid #dc3545; /* Bootstrap's $red */
+  padding: 15px 15px 0 15px;
 }
 
 /*-----------------------------------*/
@@ -139,18 +167,9 @@ h1 {
 /*---------->>> OTHER <<<------------*/
 /*-----------------------------------*/
 
-.message {
-	border: 1px solid #eee;
-	border-radius: 3px;
-	padding: 15px;
-}
-
-.warning-message {
-	border-left: 0.25rem solid #dc3545; /* Bootstrap's $red */
-}
-
-.information-message {
-	border-left: 0.25rem solid #007bff; /* Bootstrap's $primary */
+.alert-message-icon { /* FontAwesome icons */
+	padding-top: 6px;
+	position: absolute;
 }
 
 /*-----------------------------------*/
@@ -164,13 +183,21 @@ h1 {
 	}
 
 	.bd-masthead {
-		padding: calc(5rem + 62px) 0 5rem 0; /* 62px = navbar height */
+		padding: calc(5rem + 62px) 15px 5rem 15px; /* 62px = navbar height */
 	}
 
 	h1 {
 		font-size: 3.5rem;
 	}
-	
+
+  .alert-message-box {
+    margin-bottom: 4rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
 	.footer {
 		height: 178px;
 	}

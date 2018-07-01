@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 header('Content-Type: text/html; charset=utf-8');
 include('form_process.php');
@@ -75,37 +75,41 @@ include('form_process.php');
 
     <!-- Main content -->
     <main class="bd-masthead" role="main">
-      <div class="container">
-        <div class="row mb-2">
-          <div class="col message warning-message">
-            <div class="d-inline-block align-top pt-1 pr-2 pb-3">
+      <div class="container contact-container">
+        <div class="row alert-message-box">
+          <div class="col warning-message">
+            <div class="align-top alert-message-icon">
               <i class="fas fa-exclamation-triangle text-danger"></i> <!-- Warning icon -->
             </div>
-            <div class="d-inline-block align-middle">
-              <b>Work in progress!</b> <br>
-              More detailed documentation is coming soon.
+            <div class="align-middle alert-message-text">
+              <h3>Where can I get help?</h3>
+              <p>Please call Emergency Services (000) or the Suicide Callback Service (1300-659-467) if you or someone you know is at immediate risk of self-harm or suicide.</p>
+              <p>For 24/7 crisis support, call Lifeline (13-11-14, for all ages) or Kids Helpline (1800-55-1800, for anyone 25 and under).</p>
+              <p>If you ever feel unsafe at home or work, contact <a href="https://eheadspace.org.au">Headspace</a> (1800-650-890, for anyone 25 and under) or <a href="https://qlife.org.au">QLife</a> (1800-184-527, for all ages, LGBTI-specific).</p>
             </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col message information-message">
-            <div class="d-inline-block align-top pt-1 pr-2 pb-3">
-              <i class="fas fa-info-circle text-primary"></i> <!-- Information icon -->
+        <!--
+        <div class="row alert-message-box">
+          <div class="col information-message">
+            <div class="align-top alert-message-icon">
+              <i class="fas fa-info-circle text-primary"></i> Information icon
             </div>
-            <div class="d-inline-block align-middle">
-              <b>Work in progress!</b> <br>
-              More detailed documentation is coming soon.
+            <div class="align-middle alert-message-text">
+              <h3>Disclaimer</h3>
+              <p>When you contact us, the opinions expressed in the reply are those of the author only and do not represent the official view of Hunter Gender Alliance unless explicitly stated.</p>
             </div>
           </div>
         </div>
+        -->
 
         <div class="row">
           <div class="col">
-            <div class="form-area">  
-              <form role="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
-                <br style="clear: both">
-                <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
+            <div class="form-area">
+              <form class="mb-0" role="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
+                <h3 class="text-center mb-4">Get in touch with us,<br/>
+                we're here to help!</h3>
                 <div class="form-group">
                   <input id="name" class="form-control" type="text" name="name" value="<?= $name ?>" placeholder="Name">
                   <span class="error"><?= $name_error ?></span>
@@ -117,8 +121,13 @@ include('form_process.php');
                 <div class="form-group">
                   <textarea id="message" class="form-control" type="text" name="message" value="<?= $message ?>" placeholder="Message"></textarea>
                 </div>
-                <button id="submit" class="btn btn-outline-primary" type="submit" name="submit">Submit Form</button>
+                <div class="d-flex mb-3">
+                  <button id="submit" class="btn btn-outline-primary mx-auto" type="submit" name="submit">Submit</button>
+                </div>
                 <div class="success"><?= $success ?></div>
+                <div>
+                  <p class="text-center text-muted text-tiny">Disclaimer: When you contact us, the opinions expressed in the reply are those of the author only and do not represent the official view of Hunter Gender Alliance unless explicitly stated.</p>
+                </div>
               </form>
             </div>
           </div>
@@ -154,6 +163,6 @@ include('form_process.php');
     <script src="scripts/popper-1.14.3.js"></script>
     <script src="scripts/bootstrap-4.1.1.js"></script>
     <script src="scripts/fontawesome-all-5.0.13.js" defer></script>
-  
+
   </body>
 </html>
