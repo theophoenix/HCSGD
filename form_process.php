@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // define variables and set to empty values
 $name_error = $email_error = "";
@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = test_input($_POST["name"]);
     // check if name only contains letters and whitespace
     if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
-      $name_error = "Only letters and white space allowed"; 
+      $name_error = "Only letters and white space allowed";
     }
   }
 
@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = test_input($_POST["email"]);
     // check if e-mail address is well-formed
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-      $email_error = "Invalid email format"; 
+      $email_error = "Invalid email format";
     }
   }
 
@@ -31,14 +31,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   } else {
     $message = test_input($_POST["message"]);
   }
-  
+
   if ($name_error == "" and $email_error == "") {
     $message_body = "";
     unset($_POST["submit"]);
     foreach ($_POST as $key => $value) {
     	$message_body .=  "$key: $value\n";
     }
-    
+
+    // ========================================================================
+    // CHANGE THIS $to ADDRESS ONCE IT'S SET UP
+    // ========================================================================
     $to = "theodore@posteo.net";
     $subject = "Contact Form Submit";
     if (mail($to, $subject, $message)){
