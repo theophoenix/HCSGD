@@ -2,17 +2,23 @@
 /*------>>> COLOR PALETTE <<<--------*/
 /*-----------------------------------*/
 
+:root {
+  --bright-green: #28a745;;
+}
+
 .bd-text-green {
-	color: #28a745;
+	color: var(--bright-green);
 }
 
 .bg-green {
-	background-color: #28a745;
+	background-color: var(--bright-green);
 }
 
 .bg-white {
 	background-color: #ffffff;
 }
+
+
 
 /*-----------------------------------*/
 /*---------->>> GLOBAL <<<-----------*/
@@ -27,13 +33,10 @@ body {
   margin-bottom: 178px; /* margin-bottom: <footer height> */
 }
 
-h1 {
-	font-size: 2.5rem;
-	text-align: center;
-}
-
-h3 {
-  font-size: 1.65rem;
+@media (min-width: 576px) {
+  body {
+    margin-bottom: 178px;
+  }
 }
 
 /*-----------------------------------*/
@@ -45,6 +48,18 @@ h3 {
 /*-----------------------------------*/
 /*---------->>> HEADER <<<-----------*/
 /*-----------------------------------*/
+
+@media (min-width: 768px) {
+  header > div {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header > div {
+    font-size: 1rem;
+  }
+}
 
 .navbar {
 	position: fixed;
@@ -60,8 +75,30 @@ h3 {
 /*----------->>> MAIN <<<------------*/
 /*-----------------------------------*/
 
+.main-title {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 576px) {
+  .main-title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 4rem;
+  }
+}
+
 .bd-masthead {
 	padding: calc(3rem + 62px) 15px 3rem 15px; /* 62px = navbar height */
+}
+
+@media (min-width: 576px) {
+  .bd-masthead {
+    padding: calc(5rem + 62px) 15px 5rem 15px; /* 62px = navbar height */
+  }
 }
 
 .dropdown-item.active { /* Resources dropdown menu */
@@ -74,7 +111,7 @@ h3 {
   background-size: .75rem .75rem;
 }
 
-.contact-container {
+.container-md {
 	max-width: 800px;
 }
 
@@ -111,6 +148,12 @@ h3 {
   margin-bottom: 2rem;
 }
 
+@media (min-width: 576px) {
+  .alert-message-box {
+    margin-bottom: 4rem;
+  }
+}
+
 .alert-message-text {
 	padding-left: 30px;
 }
@@ -120,13 +163,28 @@ h3 {
 }
 
 .information-message {
-	border-left: 0.25rem solid #007bff; /* Bootstrap's $primary */
+	border-left: 0.25rem solid var(--primary); /* Bootstrap's primary */
   padding: 15px 15px 0 15px;
 }
 
 .warning-message {
-	border-left: 0.25rem solid #dc3545; /* Bootstrap's $red */
+	border-left: 0.25rem solid var(--red); /* Bootstrap's red */
   padding: 15px 15px 0 15px;
+}
+
+.values-icons {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.mission-box-child {
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .mission-box-child {
+    text-align: left;
+  }
 }
 
 /*-----------------------------------*/
@@ -141,6 +199,12 @@ h3 {
   padding: 15px;
   position: absolute;
   width: 100%;
+}
+
+@media (min-width: 576px) {
+  .footer {
+    height: 178px;
+  }
 }
 
 .footer > .container {
@@ -176,54 +240,26 @@ h3 {
 /*------->>> MEDIA QUERIES <<<-------*/
 /*-----------------------------------*/
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-	body {
-		margin-bottom: 178px;
-	}
+/* Small devices (landscape phones, 576px and up)
+ * @media (min-width: 576px) {
+ *   ...
+ * }
+ */
 
-	.bd-masthead {
-		padding: calc(5rem + 62px) 15px 5rem 15px; /* 62px = navbar height */
-	}
+/* Medium devices (tablets, 768px and up)
+ * @media (min-width: 768px) {
+ *   ...
+ * }
+ */
 
-	h1 {
-		font-size: 3.5rem;
-	}
-
-  .alert-message-box {
-    margin-bottom: 4rem;
-  }
-
-  h3 {
-    font-size: 1.75rem;
-  }
-
-	.footer {
-		height: 178px;
-	}
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-	header > div {
-		font-size: 0.875rem;
-	}
-
-	h1 {
-		font-size: 4rem;
-		text-align: left;
-	}
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-	header > div {
-		font-size: 1rem;
-	}
-}
+/* Large devices (desktops, 992px and up)
+ * @media (min-width: 992px) {
+ *   ...
+ * }
+ */
 
 /* Extra large devices (large desktops, 1200px and up)
-	@media (min-width: 1200px) {
-		...
-	}
-*/
+ * @media (min-width: 1200px) {
+ *   ...
+ * }
+ */
