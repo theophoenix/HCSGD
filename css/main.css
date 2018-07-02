@@ -115,6 +115,10 @@ body {
 	max-width: 800px;
 }
 
+.container-index-main {
+  max-width: 800px;
+}
+
 .container-fluid {
 	padding-top: 62px; /* 62px = navbar height */
 }
@@ -187,6 +191,17 @@ body {
   }
 }
 
+.row-mission {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-mission {
+  max-width: 800px;
+}
+
 /*-----------------------------------*/
 /*---------->>> FOOTER <<<-----------*/
 /*-----------------------------------*/
@@ -237,8 +252,14 @@ body {
 }
 
 /*-----------------------------------*/
-/*------->>> MEDIA QUERIES <<<-------*/
+/*-->>> RESPONSIVE BREAKPOINTS <<<---*/
 /*-----------------------------------*/
+
+/* Extra small devices (portrait phones, less than 576px)
+ * @media (min-width: 0) {
+ *   ...
+ * }
+ */
 
 /* Small devices (landscape phones, 576px and up)
  * @media (min-width: 576px) {
