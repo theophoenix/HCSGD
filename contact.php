@@ -25,7 +25,7 @@ include('form_process.php');
     <!-- Navbar -->
     <header class="navbar navbar-expand-md navbar-dark bg-green">
       <!-- Logo -->
-      <a class="navbar-brand" href="#"><img id="nav-img" src="images/hga-logo.png"></a>
+      <a class="navbar-brand" href="index.html"><img id="nav-img" src="images/hga-logo.png"></a>
 
       <!-- Navigation menu button for when resolution is less than 768px wide -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
