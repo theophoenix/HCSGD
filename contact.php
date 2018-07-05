@@ -23,7 +23,7 @@ include('form_process.php');
 
   <body>
     <!-- Navbar -->
-    <header class="navbar navbar-expand-md navbar-dark bg-green">
+    <header class="navbar navbar-expand-md navbar-dark">
       <!-- Logo -->
       <a class="navbar-brand" href="index.html"><img id="nav-img" src="images/hga-logo.png"></a>
 
@@ -162,7 +162,7 @@ include('form_process.php');
     <script src="scripts/jquery-3.3.1.js"></script>
     <script src="scripts/popper-1.14.3.js"></script>
     <script src="scripts/bootstrap-4.1.1.js"></script>
-    <script src="scripts/fontawesome-all-5.0.13.js" defer></script>
+    <script src="scripts/fontawesome-all-5.1.0.js" defer></script>
 
   </body>
 </html>
