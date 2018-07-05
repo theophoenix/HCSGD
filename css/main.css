@@ -3,7 +3,8 @@
 /*-----------------------------------*/
 
 :root {
-  --bright-green: #28a745;;
+  --bright-green: #28a745;
+  --plum-purple: #884d9d;
 }
 
 .bd-text-green {
@@ -62,6 +63,7 @@ body {
 }
 
 .navbar {
+  background-color: var(--plum-purple);
 	position: fixed;
 	width: 100vw;
 	z-index: 1000;
@@ -113,10 +115,6 @@ body {
 
 .container-md {
 	max-width: 800px;
-}
-
-.container-index-main {
-  max-width: 800px;
 }
 
 .container-fluid {
@@ -191,15 +189,22 @@ body {
   }
 }
 
-.row-mission {
+.m-0-p-15 {
   margin-left: 0;
   margin-right: 0;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.col-mission {
-  max-width: 800px;
+.main-title,
+.values-icons,
+#about-container h1 {
+  color: var(--plum-purple);
+}
+
+.projects-card {
+  height: 100%;
+  width: 246px;
 }
 
 /*-----------------------------------*/

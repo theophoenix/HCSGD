@@ -17,9 +17,7 @@
 	</head>
 
 	<body>
-    <!-- Navbar -->
-		<header class="navbar navbar-expand-md navbar-dark bg-green">
-      <!-- Logo -->
+		<header class="navbar navbar-expand-md navbar-dark">
 			<a class="navbar-brand" href="index.html"><img id="nav-img" src="images/hga-logo.png"></a>
 
       <!-- Navigation menu button for when resolution is less than 768px wide -->
@@ -68,12 +66,14 @@
       </div>
 		</header>
 
-		<!-- Main content -->
+    <!-- ==================================================================
+         TODO: Come up with call to action
+         ================================================================== -->
 		<main id="content" class="bd-masthead" role="main">
-      <div class="container container-index-main">
+      <div class="container container-md">
         <div class="row align-items-center">
           <div class="col text-center text-md-left pl-md-5 pr-md-5">
-            <h1 class="mb-3 bd-text-green main-title">Hunter Gender Alliance</h1>
+            <h1 class="mb-3 main-title">Hunter Gender Alliance</h1>
             <p class="lead mb-4">Lorem ipsum dolor sit amet, nam salutatus adipiscing cu, tantas graeci eum no. Ea vel mazim molestie, nam cu tale lucilius mediocrem, ius ne idque tantas propriae. Sit dicant invidunt eu, an wisi timeam adolescens pri.</p>
             <div class="d-flex flex-column flex-md-row lead mb-3">
               <a class="btn btn-lg btn-outline-primary" href="#" role="button">Learn more</a>
@@ -83,40 +83,11 @@
       </div>
 		</main>
 
-    <!-- Supporting content boxes -->
-    <!--
-    <div class="masthead-followup row m-0 border border-white">
-      <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
-        <h3>Provide Assistance</h3>
-        <p>To assist sexually and gender diverse individuals of all ages to be who they are and where they are, at any point in time.</p>
-        <hr class="half-rule">
-        <a class="btn btn-outline-primary" href="#" role="button">View details</a>
-      </div>
-      <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
-        <h3>Establish Pathways</h3>
-        <p>To discover, establish and maintain clear pathways to best practices for the trans*, intersex and gender diverse community in: health, education, law, employment and housing.</p>
-        <hr class="half-rule">
-        <a class="btn btn-outline-primary" href="#" role="button">View details</a>
-      </div>
-      <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
-        <h3>Achieved By</h3>
-        <p><ul>
-            <li>Advocating
-            <li>Including
-            <li>Documenting
-            <li>Educating
-          </ul></p>
-        <hr class="half-rule">
-        <a class="btn btn-outline-primary" href="#" role="button">View details</a>
-      </div>
-    </div>
-    -->
-
-    <div class="row bg-light border border-white row-mission"> <!-- Mission -->
-      <div class="col text-center mx-auto pt-5 pb-5 pl-md-5 pr-md-5 col-mission">
+    <div class="row bg-light border border-white m-0-p-15"> <!-- Mission -->
+      <div class="col text-center mx-auto pt-5 pb-5 pl-md-5 pr-md-5 container-md">
         <div class="row mb-5">
           <div class="col-sm-2 mx-auto">
-            <i class="fas fa-bullhorn values-icons bd-text-green"></i>
+            <i class="fas fa-bullhorn values-icons"></i>
           </div>
           <div class="col-sm-10 mission-box-child">
             <h4 class="mb-3">Advocacy</h4>
@@ -125,16 +96,16 @@
         </div>
         <div class="row mb-5">
           <div class="col-sm-2 mx-auto">
-            <i class="fas fa-comments values-icons bd-text-green"></i>
+            <i class="fas fa-comments values-icons"></i>
           </div>
           <div class="col-sm-10 mission-box-child">
-            <h4 class="mb-3">Communication</h4>
+            <h4 class="mb-3">Collaboration</h4>
             <p class="text-muted mb-0">To serve as a forum for and promote communication and collaboration amongst relevant health professionals.</p>
           </div>
         </div>
         <div class="row mb-5">
           <div class="col-sm-2 mx-auto">
-            <i class="fas fa-hands values-icons bd-text-green"></i>
+            <i class="fas fa-hands values-icons"></i>
           </div>
           <div class="col-sm-10 mission-box-child">
             <h4 class="mb-3">Encouragement</h4>
@@ -143,7 +114,7 @@
         </div>
         <div class="row mb-5">
           <div class="col-sm-2 mx-auto">
-            <i class="fas fa-file-alt values-icons bd-text-green"></i>
+            <i class="fas fa-file-alt values-icons"></i>
           </div>
           <div class="col-sm-10 mission-box-child">
             <h4 class="mb-3">Development</h4>
@@ -152,7 +123,7 @@
         </div>
         <div class="row">
           <div class="col-sm-2 mx-auto">
-            <i class="fas fa-users values-icons bd-text-green"></i>
+            <i class="fas fa-users values-icons"></i>
           </div>
           <div class="col-sm-10 mission-box-child">
             <h4 class="mb-3">Networking</h4>
@@ -162,7 +133,81 @@
       </div>
     </div>
 
-		<!-- Sticky footer -->
+    <div id="projects-container" class="row text-center m-0-p-15"> <!-- Projects -->
+      <div class="col pt-5 pb-5 mx-auto">
+        <h2 class="pb-5 mb-0">Current Projects</h2>
+        <div class="row justify-content-center">
+          <div class="col mb-3"> <!-- Fundraising -->
+            <div class="card projects-card mx-auto">
+              <img class="card-img-top" src="images/coins-jordan-rowland-716475-unsplash.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Fundraising</h5>
+                <p class="card-text">We're currently fundraising to pay for the resources we give out at events.</p>
+                <a href="#" class="btn btn-outline-primary">Donate Here</a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3"> <!-- Educating health professionals -->
+            <div class="card projects-card mx-auto">
+              <img class="card-img-top" src="images/auditorium-mikael-kristenson-242070-unsplash.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Education</h5>
+                <p class="card-text">We've given a number of educational presentations to University of Newcastle medical students, the Endocrine Society of Australia, ANZPATH, as well as various healthcare providers in the Hunter region.</p>
+                <p class="card-text">We continue to look for opportunities to educate.</p>
+              </div>
+              <div class="card-footer" style="border-top: 2px solid var(--success)">
+                <i class="fas fa-award text-success" style="font-size: 1.5rem;"></i>
+                <p class="card-text text-muted text-tiny">Finalist of the HNE-LHD High Value Healthcare Award 2017</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3"> <!-- HNEkidshealth -->
+            <div class="card projects-card mx-auto">
+              <img class="card-img-top" src="images/young-people-alexis-brown-85793-unsplash.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Resources</h5>
+                <p class="card-text">We've collaborated with HNEkidshealth to develop a <a href="http://www.hnekidshealth.nsw.gov.au/gender">resource page</a> with information sheets and videos for older children, teenagers, and young adults who are questioning their gender. There is also information for parents.</p>
+              </div>
+              <div class="card-footer" style="border-top: 2px solid var(--warning)">
+                <i class="fas fa-trophy text-warning" style="font-size: 1.5rem;"></i>
+                <p class="card-text text-muted text-tiny">Winner of the HNE-LHD Innovation Award 2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3"> <!-- HealthPathways -->
+            <div class="card projects-card mx-auto">
+              <img class="card-img-top" src="images/doctor-patient-rawpixel-665349-unsplash.jpg">
+              <div class="card-body">
+                <h5 class="card-title">HealthPathways</h5>
+                <p class="card-text">We've developed the Hunter Primary Care Gender Diversity and Transgender HealthPathway to help General Practitioners navigate the health needs of transgender and gender diverse individuals.</p>
+                <p class="card-text text-muted text-tiny">HealthPathways is a publicly funded online health information portal for clinicians that provides concise information on how to assess and manage patients.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3"> <!-- Community events -->
+            <div class="card projects-card mx-auto">
+              <img class="card-img-top" src="images/pride-event-josh-wilburne-501963-unsplash.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Events</h5>
+                <p class="card-text">We've been providing assistance with local LGBT+ community events and we'll have a stall set up at the upcoming Newcastle Pride!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3"> <!-- Support groups -->
+            <div class="card projects-card mx-auto">
+              <img class="card-img-top" src="images/hands-tim-marshall-114623-unsplash.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Support Groups</h5>
+                <p class="card-text">We've set up a much needed local support group for trans* identifying women, as well as a local support group for people who identify as non-binary.</p>
+                <p class="card-text text-muted text-tiny">There is already a local support group for trans* identifying men.</p>
+                <a href="#" class="btn btn-outline-primary">Find Out More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 		<footer class="footer">
 			<div class="container">
 				<div class="row">
@@ -189,6 +234,6 @@
     <script src="scripts/jquery-3.3.1.js"></script>
     <script src="scripts/popper-1.14.3.js"></script>
     <script src="scripts/bootstrap-4.1.1.js"></script>
-    <script src="scripts/fontawesome-all-5.0.13.js" defer></script>
+    <script src="scripts/fontawesome-all-5.1.0.js" defer></script>
 	</body>
 </html>
