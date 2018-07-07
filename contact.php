@@ -85,7 +85,7 @@ include('form_process.php');
               <h3>Where can I get help?</h3>
               <p>Please call Emergency Services (000) or the Suicide Callback Service (1300-659-467) if you or someone you know is at immediate risk of self-harm or suicide.</p>
               <p>For 24/7 crisis support, call Lifeline (13-11-14) for all ages or Kids Helpline (1800-55-1800) for anyone 25 and under.</p>
-              <p>If you ever feel unsafe at home or work, contact <a href="https://eheadspace.org.au">Headspace</a> (1800-650-890) for anyone 25 and under or the LGBTI-specific <a href="https://qlife.org.au">QLife</a> (1800-184-527) for all ages.</p>
+              <p>If you ever feel unsafe at home or work, contact <a href="https://eheadspace.org.au">Headspace</a> (1800-650-890) for anyone 25 and under or the <abbr title="Lesbian, Gay, Bisexual and Transgender">LGBT+</abbr> specific <a href="https://qlife.org.au">QLife</a> (1800-184-527) for all ages.</p>
             </div>
           </div>
         </div>
