@@ -207,6 +207,20 @@ body {
   width: 246px;
 }
 
+.hide {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hide-md {
+    display: none;
+  }
+
+  .show-md {
+    display: block;
+  }
+}
+
 /*-----------------------------------*/
 /*---------->>> FOOTER <<<-----------*/
 /*-----------------------------------*/
