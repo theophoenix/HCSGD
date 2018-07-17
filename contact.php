@@ -125,8 +125,8 @@ include('form_process.php');
                   <button id="submit" class="btn btn-outline-primary mx-auto" type="submit" name="submit">Submit</button>
                 </div>
                 <div class="success"><?= $success ?></div>
-                <div>
-                  <p class="text-center text-muted text-tiny" style="margin-bottom: 0">Disclaimer: When you contact us, the opinions expressed in the reply are those of the author only and do not represent the official view of Hunter Gender Alliance unless explicitly stated.</p>
+                <div class="alert alert-warning">
+                  <p class="text-center text-tiny" style="margin-bottom: 0">Disclaimer: When you contact us, the opinions expressed in the reply are those of the author only and do not represent the official view of Hunter Gender Alliance unless explicitly stated.</p>
                 </div>
               </form>
             </div>
