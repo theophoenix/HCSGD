@@ -25,7 +25,7 @@ include('form_process.php');
     <!-- Navbar -->
     <header class="navbar navbar-expand-md navbar-dark">
       <!-- Logo -->
-      <a class="navbar-brand" href="index.html"><img id="nav-img" src="images/hga-logo.png"></a>
+      <a class="navbar-brand" href="index.html"><img id="nav-img" src="images/new-hga-logo.svg"></a>
 
       <!-- Navigation menu button for when resolution is less than 768px wide -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,13 +38,16 @@ include('form_process.php');
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item dropdown">
+          <!--<li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="resources-for-community-members.html">Resources for Community Members</a>
               <a class="dropdown-item" href="resources-for-health-professionals.html">Resources for Health Professionals</a>
               <a class="dropdown-item" href="resources-for-allies.html">Resources for Allies</a>
             </div>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="resources.html">Resources</a>
           </li>
           <!--<li class="nav-item">
             <a class="nav-link" href="#">News</a>
