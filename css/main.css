@@ -202,7 +202,8 @@ body {
 
 .main-title,
 .values-icons,
-#about-container h1 {
+#about-container h1,
+.title {
   color: var(--plum-purple);
 }
 
@@ -223,6 +224,10 @@ body {
   .show-md {
     display: block;
   }
+}
+
+#recommended-professionals-table thead th {
+  border-bottom: none;
 }
 
 /*-----------------------------------*/
