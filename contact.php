@@ -79,16 +79,29 @@ include('form_process.php');
     <!-- Main content -->
     <main class="bd-masthead" role="main">
       <div class="container container-md">
+        <!--
         <div class="row alert-message-box">
           <div class="col warning-message">
             <div class="align-top alert-message-icon">
-              <i class="fas fa-exclamation-triangle text-danger"></i> <!-- Warning icon -->
+              <i class="fas fa-exclamation-triangle text-danger"></i> <!-- Warning icon
             </div>
             <div class="align-middle alert-message-text">
               <h3>Where can I get help?</h3>
               <p>Please call Emergency Services (000) or the Suicide Callback Service (1300-659-467) if you or someone you know is at immediate risk of self-harm or suicide.</p>
               <p>For 24/7 crisis support, call Lifeline (13-11-14) for all ages or Kids Helpline (1800-55-1800) for anyone 25 and under.</p>
               <p>If you ever feel unsafe at home or work, contact <a href="https://eheadspace.org.au">Headspace</a> (1800-650-890) for anyone 25 and under or the <abbr title="Lesbian, Gay, Bisexual and Transgender">LGBT+</abbr> specific <a href="https://qlife.org.au">QLife</a> (1800-184-527) for all ages.</p>
+            </div>
+          </div>
+        </div>
+        -->
+
+        <div class="row mb-5">
+          <div class="col">
+            <div class="alert alert-danger">
+              <h3>Where can I get help?</h3>
+              <p>Please call Emergency Services (000) or the Suicide Callback Service (1300-659-467) if you or someone you know is at immediate risk of self-harm or suicide.</p>
+              <p>For 24/7 crisis support, call Lifeline (13-11-14) for all ages or Kids Helpline (1800-55-1800) for anyone 25 and under.</p>
+              <p class="mb-0">If you ever feel unsafe at home or work, contact <a href="https://eheadspace.org.au">Headspace</a> (1800-650-890) for anyone 25 and under or the <abbr title="Lesbian, Gay, Bisexual and Transgender">LGBT+</abbr> specific <a href="https://qlife.org.au">QLife</a> (1800-184-527) for all ages.</p>
             </div>
           </div>
         </div>
@@ -111,8 +124,8 @@ include('form_process.php');
           <div class="col">
             <div class="form-area">
               <form class="mb-0" role="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
-                <h3 class="text-center mb-4">Get in touch with us,<br/>
-                we're here to help!</h3>
+                <h3 class="text-center mb-4">Get in touch with us,<br>
+                                             we're here to help!</h3>
                 <div class="form-group">
                   <input id="name" class="form-control" type="text" name="name" value="<?= $name ?>" placeholder="Name">
                   <span class="error"><?= $name_error ?></span>
@@ -129,7 +142,7 @@ include('form_process.php');
                 </div>
                 <div class="success"><?= $success ?></div>
                 <div class="alert alert-warning">
-                  <p class="text-center text-tiny" style="margin-bottom: 0">Disclaimer: When you contact us, the opinions expressed in the reply are those of the author only and do not represent the official view of Hunter Gender Alliance unless explicitly stated.</p>
+                  <p class="text-center text-tiny mb-0">Disclaimer: When you contact us, the opinions expressed in the reply are those of the author only and do not represent the official view of Hunter Gender Alliance unless explicitly stated.</p>
                 </div>
               </form>
             </div>
