@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // ========================================================================
     // CHANGE THIS $to ADDRESS ONCE IT'S SET UP
     // ========================================================================
-    $to = "theodore@posteo.net";
+    $to = "HunterSexAndGenderDiversity@gmail.com";
     $subject = "Contact Form Submit";
     if (mail($to, $subject, $message)){
       $success = "Message sent, thank you for contacting us!";
