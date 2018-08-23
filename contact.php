@@ -70,12 +70,12 @@ include('form_process.php');
         </ul>
 
         <!-- Navbar right -->
-        <!-- Facebook nav item for later use when we have a Facebook page up and running
+        <!-- Facebook nav item for later use when we have a Facebook page up and running -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+            <a class="nav-link" href="https://www.facebook.com/Huntergenderalliance/"><i class="fab fa-facebook"></i></a>
           </li>
-        </ul>-->
+        </ul>
       </div>
     </header>
 
