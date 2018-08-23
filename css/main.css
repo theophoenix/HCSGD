@@ -63,7 +63,7 @@ body {
 }
 
 .navbar {
-  background-color: var(--plum-purple);
+  background-color: #884d9d;
 	position: fixed;
 	width: 100vw;
 	z-index: 1000;
@@ -204,7 +204,7 @@ body {
 .values-icons,
 #about-container h1,
 .title {
-  color: var(--plum-purple);
+  color: #884d9d;
 }
 
 .projects-card {
