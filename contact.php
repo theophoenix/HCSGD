@@ -140,10 +140,10 @@ include('form_process.php');
                 <div class="form-group">
                   <textarea id="message" class="form-control" type="text" name="message" value="<?= $message ?>" placeholder="Message"></textarea>
                 </div>
-                <div class="d-flex mb-5">
+                <div class="d-flex mb-3">
                   <button id="submit" class="btn btn-outline-primary mx-auto" type="submit" name="submit">Submit</button>
                 </div>
-                <div class="success"><?= $success ?></div>
+                <div class="success text-center mb-5"><?= $success ?></div>
                 <div class="alert alert-warning">
                   <p class="text-center text-tiny mb-0">Disclaimer: When you contact us, the opinions expressed in the reply are those of the author only and do not represent the official view of Hunter Gender Alliance unless explicitly stated.</p>
                 </div>
