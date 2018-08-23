@@ -140,7 +140,7 @@ include('form_process.php');
                 <div class="form-group">
                   <textarea id="message" class="form-control" type="text" name="message" value="<?= $message ?>" placeholder="Message"></textarea>
                 </div>
-                <div class="d-flex mb-3">
+                <div class="d-flex mb-5">
                   <button id="submit" class="btn btn-outline-primary mx-auto" type="submit" name="submit">Submit</button>
                 </div>
                 <div class="success"><?= $success ?></div>
