@@ -49,6 +49,9 @@ include('form_process.php');
           <li class="nav-item">
             <a class="nav-link" href="resources.html">Resources</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="donate.html">Donate</a>
+          </li>
           <!--<li class="nav-item">
             <a class="nav-link" href="#">News</a>
           </li>
