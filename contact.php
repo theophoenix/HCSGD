@@ -125,6 +125,9 @@ include('form_process.php');
 
         <div class="row">
           <div class="col">
+            <div class="alert alert-primary mb-5">
+              <p class="text-center text-tiny mb-0">If you contacted us between 25/08/18 and 26/08/18, please contact us again as we had some technical difficulties with our contact form. We're sorry for the inconvenience!</p>
+            </div>
             <div class="form-area">
               <form class="mb-0" role="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
                 <h3 class="text-center mb-4">Get in touch with us,<br>
