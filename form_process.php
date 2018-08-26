@@ -2,16 +2,26 @@
 
 // define variables and set to empty values
 $name_error = $email_error = "";
-$name = $email = $message = $success = "";
+$first_name = $last_name = $email = $message = $success = "";
 
 //form is submitted with POST method
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  if (empty($_POST["name"])) {
-    $name_error = "Name is required";
+  if (empty($_POST["first_name"])) {
+    $name_error = "First name is required";
   } else {
-    $name = test_input($_POST["name"]);
-    // check if name only contains letters and whitespace
-    if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+    $first_name = test_input($_POST["first_name"]);
+    // check if first name only contains letters and whitespace
+    if (!preg_match("/^[a-zA-Z ]*$/",$first_name)) {
+      $name_error = "Only letters and white space allowed";
+    }
+  }
+
+  if (empty($_POST["last_name"])) {
+    $name_error = "Last name is required";
+  } else {
+    $last_name = test_input($_POST["last_name"]);
+    // check if last name only contains letters and whitespace
+    if (!preg_match("/^[a-zA-Z ]*$/",$last_name)) {
       $name_error = "Only letters and white space allowed";
     }
   }
@@ -43,8 +53,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // CHANGE THIS $to ADDRESS ONCE IT'S SET UP
     // ========================================================================
     $to = "HunterSexAndGenderDiversity@gmail.com";
+    $from = $_POST["email"];
+    $first_name = $_POST["first_name"];
+    $last_name = $_POST["last_name"];
     $subject = "Contact Form Submit";
-    if (mail($to, $subject, $message)){
+    $headers .= "From: ".$_POST["first_name"]." ".$_POST["last_name"]." <".$_POST["email"].">\r\n";
+    if (mail($to, $subject, $message, $headers)){
       $success = "Message sent, thank you for contacting us!";
       $name = $email = $subject = $message = "";
     }

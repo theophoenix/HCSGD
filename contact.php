@@ -130,15 +130,19 @@ include('form_process.php');
                 <h3 class="text-center mb-4">Get in touch with us,<br>
                                              we're here to help!</h3>
                 <div class="form-group">
-                  <input id="name" class="form-control" type="text" name="name" value="<?= $name ?>" placeholder="Name">
+                  <input id="first_name" class="form-control" type="text" name="first_name" value="<?= $first_name ?>" placeholder="Your First Name">
                   <span class="error"><?= $name_error ?></span>
                 </div>
                 <div class="form-group">
-                  <input id="email" class="form-control" type="text" name="email" value="<?= $email ?>" placeholder="Email">
+                  <input id="last_name" class="form-control" type="text" name="last_name" value="<?= $last_name ?>" placeholder="Your Last Name">
+                  <span class="error"><?= $name_error ?></span>
+                </div>
+                <div class="form-group">
+                  <input id="email" class="form-control" type="text" name="email" value="<?= $email ?>" placeholder="Your Email">
                   <span class="error"><?= $email_error ?></span>
                 </div>
                 <div class="form-group">
-                  <textarea id="message" class="form-control" type="text" name="message" value="<?= $message ?>" placeholder="Message"></textarea>
+                  <textarea id="message" class="form-control" type="text" name="message" value="<?= $message ?>" placeholder="Your Message"></textarea>
                 </div>
                 <div class="d-flex mb-3">
                   <button id="submit" class="btn btn-outline-primary mx-auto" type="submit" name="submit">Submit</button>
